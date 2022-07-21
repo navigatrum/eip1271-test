@@ -1,0 +1,7 @@
+{
+    "name": "navigatrum/test_is_valid_signature",
+    "minimum-stability": "dev",
+    "require": {
+        "web3p/web3.php": "dev-master"
+    }
+}

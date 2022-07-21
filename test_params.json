@@ -1,0 +1,32 @@
+{
+    "rpc": "https://main-rpc.linkpool.io/",
+    "signature": "0x00193f8bb87a8bd4a8367a47ee477c62aec984830ec59e730b28d1ec54669eab450b9f3108a5c435648691c5766b35e2f13b8fb29f46298bb378ac34597d7e271c",
+    "hashedMessage": "0x13f64d354be469f23cf911231c7acf0b0faf781fbdef0eb1c463bdec229faf0b",
+    "address": "0xa5b3A53800cD49669F34DE80f2C569c6D4Ca3009",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32",
+                    "name": "_message",
+                    "type": "bytes32"
+                },
+                {
+                    "internalType": "bytes",
+                    "name": "_signature",
+                    "type": "bytes"
+                }
+            ],
+            "name": "isValidSignature",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+}
